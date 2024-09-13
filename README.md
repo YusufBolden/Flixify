@@ -1,2 +1,2 @@
 # Flixify
-Work in progress - MongoDB, Express.js, React.js, Node.js (MERN), Tailwind stack, and JSON Web Token used to create a clone of the popular Netflix streaming service
+Work in progress -Clone of the Netflix streaming service using MongoDB, Express.js, React.js, Node.js (MERN), Tailwind stack, and JSON Web Token.
