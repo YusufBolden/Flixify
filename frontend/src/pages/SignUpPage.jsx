@@ -51,7 +51,7 @@ const SignUpPage = () => {
 							<input
 								type='text'
 								className='w-full px-3 py-2 mt-1 border border-gray-700 rounded-md bg-transparent text-white focus:outline-none focus:ring'
-								placeholder='enter your username'
+								placeholder='yourUsername'
 								id='username'
 								value={username}
 								onChange={(e) => setUsername(e.target.value)}
@@ -65,7 +65,7 @@ const SignUpPage = () => {
 							<input
 								type='password'
 								className='w-full px-3 py-2 mt-1 border border-gray-700 rounded-md bg-transparent text-white focus:outline-none focus:ring'
-								placeholder='enter your password'
+								placeholder='yourPassword'
 								id='password'
 								value={password}
 								onChange={(e) => setPassword(e.target.value)}
