@@ -76,20 +76,6 @@ cd frontend
 npm start
 ```
 
-## 🔑 Getting a MongoDB URI (Atlas):
-
-Go to MongoDB Atlas and create an account.
-
-Create a new cluster (free tier is fine).
-
-Add a database user and set a password.
-
-Whitelist your IP address or allow access from anywhere (0.0.0.0/0).
-
-Copy your connection string from Connect > Drivers > Node.js (e.g., mongodb+srv://<username>:<password>@cluster.mongodb.net/flixify?retryWrites=true&w=majority)
-
-Paste it into your .env file as MONGO_URI.
-
 ## 🔐 Authentication – Getting a JWT Token
 
 To authenticate and get a JWT token, follow these steps:
