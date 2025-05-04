@@ -40,7 +40,7 @@ git clone https://github.com/YusufBolden/Flixify.git
 cd Flixify
 ```
 
-### 2. Install Dependencies
+2. Install Dependencies
 ```
 # Backend
 cd backend
@@ -51,3 +51,48 @@ cd ../frontend
 npm install
 ```
 
+3. Set up environment variables in backend/.env:
+```
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+```
+
+4. Start the development servers:
+```
+# Backend
+cd backend
+npm run dev
+
+# Frontend (in another terminal)
+cd frontend
+npm start
+```
+
+## ✨ Features
+JWT-based user authentication
+
+Responsive UI with Tailwind CSS
+
+Real-time toast notifications
+
+Modular, scalable architecture
+
+GitHub Pages deployment
+
+## 🛣️ Roadmap
+ Movie browsing & search
+
+ User profiles & watchlists
+
+ Video playback integration
+
+ Enhanced form validation
+
+ Production-ready deployment
+
+## 🤝 Contributing
+Contributions are welcome! Fork the repo, make your changes, and submit a pull request.
+
+📄 License
+
+This project is licensed under the [MIT License](https://github.com/YusufBolden/flixify/blob/main/LICENSE)
