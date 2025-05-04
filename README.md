@@ -7,7 +7,7 @@ Flixify is a full-stack Netflix-inspired streaming platform built with the MERN 
 ## 🌐 Live Demo
 
 Check out the deployed version on GitHub Pages:
-👉 [Flixify Live](https://yusufbolden.github.io/Flixify/)
+👉 COMING SOON!
 
 ## 🧰 Tech Stack
 
