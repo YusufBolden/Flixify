@@ -5,4 +5,49 @@ Flixify is a full-stack Netflix-inspired streaming platform built with the MERN 
 
 ## 🌐 Live Demo
 Check out the deployed version on GitHub Pages:
-👉 Flixify Live
+👉 [Flixify Live](https://yusufbolden.github.io/Flixify/)
+
+## 🧰 Tech Stack
+Frontend: React.js, Tailwind CSS, Lucide, React-Hot-Toast
+
+Backend: Node.js, Express.js
+
+Authentication: JWT
+
+Database: MongoDB
+
+## 📁 Project Structure:
+
+```
+Flixify/
+├── backend/          # Express server, API routes, MongoDB models
+├── frontend/         # React app, components, pages, styling
+├── .env              # Environment variables
+├── package.json      # Project metadata and scripts
+└── README.md         # Project documentation
+```
+
+## 🚀 Getting Started
+Prerequisites
+Node.js (v16 or higher)
+
+MongoDB (local or Atlas)
+
+### Installation
+1. Clone the repository:
+```
+git clone https://github.com/YusufBolden/Flixify.git
+cd Flixify
+```
+
+### 2. Install Dependencies
+```
+# Backend
+cd backend
+npm install
+
+# Frontend
+cd ../frontend
+npm install
+```
+
